@@ -1,0 +1,134 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 71px;
+    background: #812B43;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding:0;
+    margin: 0;
+}
+
+ul, li {
+    display: block;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #812B43;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    width: 1440px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    background: #812B43;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    position: absolute;
+    width: 1140px;
+    height: 71px;
+    left: 150px;
+    top: 0px;
+    background: #812B43;
+}
+
+.ul-nav {
+    display: flex;
+    padding-left: 0px;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ul-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.ul-nav li {
+    padding-right: 44px;
+}
+
+.li-login {
+    margin-left: auto;
+}
+
+.main-img {
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    background: #A5AEAE;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 1140px;
+    background: #A5AEAE;
+}
+
+.ul-footer-menu, .ul-footer-contact {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+    .ul-footer-menu a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .ul-footer-menu li {
+        padding-bottom: 10px;
+    }
+
+    .ul-footer-contact li {
+        padding-bottom: 10px;
+    }
+
+    .ul-footer-contact a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+.container-footer-line {
+    margin: auto;
+    width: 1140px;
+    background: #A5AEAE;
+}
+
+.footer-copyright {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+
